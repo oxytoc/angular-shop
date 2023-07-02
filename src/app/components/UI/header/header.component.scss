@@ -1,0 +1,24 @@
+.icon {
+  margin-right: 10px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.toolbar{
+  display: flex;
+  align-items: center;
+
+  &_button{
+    margin-right: 50px;
+
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+.no-select{
+  cursor: pointer;
+  user-select: none;
+}

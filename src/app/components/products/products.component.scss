@@ -1,0 +1,26 @@
+.container{
+  margin: 0 auto 0;
+  padding: 30px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+mat-card{
+  margin-bottom: 20px;
+  margin-left: 2vw;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  
+  .product-image{
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+
+  mat-card-actions{
+    justify-content: space-between;
+  }
+}
